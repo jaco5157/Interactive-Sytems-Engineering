@@ -1,4 +1,23 @@
 .search-wrapper{
     max-width: 400px;
-    margin-top: 300px;
+    margin-top: 100px;
+}
+
+.img-card{
+    object-fit: cover;
+    height: 100%;
+}
+
+.card{
+    overflow: hidden;
+}
+
+.list-wrapper{
+    max-width: 1300px;
+}
+
+@media screen and (min-width: 992px) {
+    .search-wrapper{
+        margin-top: 300px;
+    }
 }
